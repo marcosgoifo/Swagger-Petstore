@@ -1,6 +1,7 @@
-# Web Demoblaze
+# Swagger Petstore
+
 ### Descripción
-###### En la pagina web [DemoBlaze](https://www.demoblaze.com/index.html "DemoBlaze") como usuario queremos registrarnos y agregar una laptop al carrito de compras.
+###### En la pagina web [SwaggerPetstore]([https://www.demoblaze.com/index.html](https://petstore.swagger.io/)) se va a testear el metodo POST, GET, PUT
 
 
 ### Construido con 🛠️
@@ -10,7 +11,7 @@
  - **Cucumber** - Utilizado para especificar escenarios de pruebas
  - **JUnit** - Utilizado para ejecutar los Tests
  - **Java** - Lenguaje utilizado para construir la automatizacion
- - **Selenium Web Driver** - Herramienta utilizada para automatizar las pruebas realizadas en el navegador web.
+ - **Rest assured** - Herramienta utilizada para enviar los request y reponse de API .
  
 ### Comenzando
 
@@ -33,4 +34,4 @@
 
 ##### Cuando se termine de ejecutar los test el report se sube automaticamente en html en la siguiente carpeta:
 
-##### target>html-reports>report.html# Web Demoblaze
+##### target>html-reports>report.html
