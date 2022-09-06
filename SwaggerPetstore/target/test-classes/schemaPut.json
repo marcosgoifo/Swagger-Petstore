@@ -1,0 +1,98 @@
+{
+  "$id": "root",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "default": 9223372036854265000,
+      "examples": [
+        9223372036854265000
+      ]
+    },
+    "category": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "default": 0,
+          "examples": [
+            0
+          ]
+        },
+        "name": {
+          "type": "string",
+          "default": "string",
+          "examples": [
+            "string"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "additionalProperties": false
+    },
+    "name": {
+      "type": "string",
+      "default": "Harry",
+      "examples": [
+        "Harry"
+      ]
+    },
+    "photoUrls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "default": "https://t1.uc.ltmcdn.com/es/posts/8/3/9/como_saber_si_un_cachorro_de_golden_retriever_es_puro_50938_3_600.webp",
+        "examples": [
+          "https://t1.uc.ltmcdn.com/es/posts/8/3/9/como_saber_si_un_cachorro_de_golden_retriever_es_puro_50938_3_600.webp"
+        ]
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "default": 0,
+            "examples": [
+              0
+            ]
+          },
+          "name": {
+            "type": "string",
+            "default": "string",
+            "examples": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "status": {
+      "type": "string",
+      "default": "available",
+      "examples": [
+        "available"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "category",
+    "name",
+    "photoUrls",
+    "tags",
+    "status"
+  ],
+  "additionalProperties": false
+}

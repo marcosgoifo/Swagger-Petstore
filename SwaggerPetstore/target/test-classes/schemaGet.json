@@ -1,0 +1,98 @@
+{
+  "$id": "root",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "default": 9223372036854261000,
+      "examples": [
+        9223372036854261000
+      ]
+    },
+    "category": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "default": 0,
+          "examples": [
+            0
+          ]
+        },
+        "name": {
+          "type": "string",
+          "default": "string",
+          "examples": [
+            "string"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "additionalProperties": false
+    },
+    "name": {
+      "type": "string",
+      "default": "Salchi",
+      "examples": [
+        "Salchi"
+      ]
+    },
+    "photoUrls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "default": "https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/purina-conoce%20todo-acerca-del-dachshund-perro-salchicha.jpg?itok=gtpvnLfv",
+        "examples": [
+          "https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/purina-conoce%20todo-acerca-del-dachshund-perro-salchicha.jpg?itok=gtpvnLfv"
+        ]
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "default": 0,
+            "examples": [
+              0
+            ]
+          },
+          "name": {
+            "type": "string",
+            "default": "string",
+            "examples": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "status": {
+      "type": "string",
+      "default": "available",
+      "examples": [
+        "available"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "category",
+    "name",
+    "photoUrls",
+    "tags",
+    "status"
+  ],
+  "additionalProperties": false
+}

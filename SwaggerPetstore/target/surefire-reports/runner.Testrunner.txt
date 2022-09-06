@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runner.Testrunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 27.853 s <<< FAILURE! - in runner.Testrunner
+Agregar una mascota realizando un POST al path /v2/pet(Swagger Petstore con Rest Assured API)  Time elapsed: 9.05 s  <<< ERROR!
+io.restassured.module.jsv.JsonSchemaValidationException: 
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 1, column: 2]
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 1, column: 2]
+
