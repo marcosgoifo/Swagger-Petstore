@@ -1,7 +1,7 @@
 # Swagger Petstore
 
 ### Descripción
-###### En la pagina web [SwaggerPetstore]([https://www.demoblaze.com/index.html](https://petstore.swagger.io/)) se va a testear el metodo POST, GET, PUT
+###### En la pagina web [SwaggerPetstore]([https://www.demoblaze.com/index.html](https://petstore.swagger.io/)) se va a testear el metodo POST para crear una nueva mascota, GET para conseguir una mascota existente con ID, PUT para modificar una mascota existente. En todos los casos se valida el status code y el schema del response.
 
 
 ### Construido con 🛠️
