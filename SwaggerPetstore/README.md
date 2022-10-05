@@ -6,10 +6,10 @@
 
 ### Construido con 🛠️
 
- - **Eclipce IDE**- El framework web usado
- -  **Maven** - Manejador de dependencias
- - **Cucumber** - Utilizado para especificar escenarios de pruebas
- - **JUnit** - Utilizado para ejecutar los Tests
+ - **Eclipce**- IDE utilizado
+ - **Maven** - Manejador de dependencias
+ - **Cucumber & Gherkin** - Utilizado para especificar escenarios de pruebas
+ - **JUnit** - Herramienta para Prueba unitaria
  - **Java** - Lenguaje utilizado para construir la automatizacion
  - **Rest assured** - Herramienta utilizada para enviar los request y reponse de API .
  
